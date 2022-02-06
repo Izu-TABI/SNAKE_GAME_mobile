@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+.bottom{
+    height: 100px;
+    width: 50%;
+    position: fixed;
+    margin-top: 110%;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#ArrowUp{
+    position: fixed;
+    display: inline;
+    margin-left: 15%;
+    height: 25px;
+    width: 50px;
+    padding-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#ArrowDown{
+    position: fixed;
+    display: inline;
+    margin-left: 15%;
+    margin-top: 53px;
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+#ArrowLeft{
+    position: fixed;
+    display: inline;
+    padding-top: 0px;
+    margin-left: 7.1%;
+    margin-top: 26px;
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#ArrowRight{
+    position: fixed;
+    display: inline;
+    margin-top: 26px;
+    margin-left: 27.7%;
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+.header {
+    display: block;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: silver;
+
+    color: black;
+    padding-top: 37px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    
+}
+
+.tutorial {
+    width: 100%;
+    position: absolute;
+    margin-top: 500px;
+    text-align: center;
+}
+
+canvas{
+    margin: 100px;
+}
+.text {
+    display: block;
+    margin-top: 15px;
+}
